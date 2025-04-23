@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#175292"
+    tools:context=".MainActivity" >
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="405dp"
+        android:layout_height="733dp"
+        app:srcCompat="@drawable/bg_persib"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="78dp"
+        android:layout_height="79dp"
+        android:src="@drawable/logo_persib"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="192dp"
+        android:layout_height="272dp"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="145dp"
+        tools:srcCompat="@drawable/pemain_persib" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="284dp"
+        android:layout_height="74dp"
+        android:fadeScrollbars="true"
+        android:fontFamily="sans-serif"
+        android:text="ANGGOTA BARU,"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="284dp"
+        android:layout_height="74dp"
+        android:fadeScrollbars="true"
+        android:fontFamily="sans-serif"
+        android:text="KELUARGA BARU"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="184dp"
+        android:layout_height="80dp"
+        android:text="Ini adalah rumah bagi Bobotoh sejati.
+                            Mau jadi bagian dari Kami? "
+        android:textAlignment="center"
+        android:textColor="#D0CFCF"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="259dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#4DA5E6"
+        android:text="DAFTAR"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:toggleCheckedStateOnClick="false"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="609dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EBF2F2"
+        android:text="Login"
+        android:textColor="#180101"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
